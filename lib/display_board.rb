@@ -1,6 +1,6 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 cell_1 = "X"
-def display_board(board)
+def display_board
 puts "   |   |   "
 puts "-----------"
 puts "   |   |   "
