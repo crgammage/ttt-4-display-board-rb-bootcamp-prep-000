@@ -1,5 +1,4 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
+rows = "   |   |   ", "   |   |   ", "   |   |   "
 def display_board(the_board)
 puts "#{board[0]}|#{board[1]}|#{board[2]}"
 puts "-----------"
