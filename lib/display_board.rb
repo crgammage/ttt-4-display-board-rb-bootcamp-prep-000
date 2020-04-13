@@ -24,3 +24,5 @@ display_board(board)
 
 board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
 display_board(board)
+
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
