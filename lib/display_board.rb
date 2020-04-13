@@ -32,5 +32,7 @@ board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 display_board(board)
 
 board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+display_board(board)
 
 board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+display_board(board)
