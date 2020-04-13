@@ -1,12 +1,9 @@
-the_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(the_board)
-puts "   |   |   "
+puts "#{board[0]}|#{board[1]}|#{board[2]}"
 puts "-----------"
-puts "   |   |   "
+puts " #{board[03}|#{board[4]}|#{board[5]}"
 puts "-----------"
-puts "   |   |   "
+puts "#{board[6]}|#{board[7]}|#{board[8]}"
 end
-
-puts "Turn 1"
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
