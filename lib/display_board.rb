@@ -1,15 +1,15 @@
-rows = "   |   |   ", "   |   |   ", "   |   |   "
+rows = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 def display_board(board)
-puts "#{board[0]}|#{board[1]}|#{board[2]}"
+puts "#{rows[0]}|#{rows[1]}|#{rows[2]}"
 puts "-----------"
-puts " #{board[03]}|#{board[4]}|#{board[5]}"
+puts " #{rows[03]}|#{rows[4]}|#{rows[5]}"
 puts "-----------"
-puts "#{board[6]}|#{board[7]}|#{board[8]}"
+puts "#{rows[6]}|#{rows[7]}|#{rows[8]}"
 end
 
 puts "Turn 1"
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board(board)
+rows = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(rows)
 
 puts "Turn 2"
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
