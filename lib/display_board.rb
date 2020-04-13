@@ -14,3 +14,4 @@ display_board(board)
 
 puts "Turn 2"
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
